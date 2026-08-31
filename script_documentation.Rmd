@@ -1,3 +1,5 @@
+```markdown
+---
 title: "Documenting `sales_analysis.R` Script"
 author: "Data Analytics Team"
 date: "`r Sys.Date()`"
