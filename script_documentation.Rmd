@@ -1,0 +1,27 @@
+```markdown
+---
+title: "Documenting `sales_analysis.R` Script"
+author: "Data Analytics Team"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# AI Assistance Declaration
+* **AI Tools Used:** ChatGPT / Gemini  
+* **Date:** October 24, 2024  
+* **Manual Verification:** Verified logic, inputs, outputs, and knitted HTML/Markdown rendering in RStudio.
+
+---
+
+# Purpose
+
+The primary objective of the `sales_analysis.R` script is to automate the ingestion, data cleaning, and summary aggregation of monthly retail store transaction data. It prepares clean metrics for dashboard consumption.
+
+## Dependencies
+
+Before running the script functions, load the necessary core packages:
+
+```{r setup, message=FALSE, warning=FALSE}
+library(dplyr)
+library(lubridate)
+library(knitr)
